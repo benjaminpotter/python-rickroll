@@ -1,0 +1,26 @@
+<style>
+    button {
+
+        margin-top: 25%;
+        margin-left: 50%;
+
+    }
+</style>
+
+
+<button id="button">
+
+    Click Me
+
+</button>
+
+<script>
+
+    var button = document.getElementById("button");
+
+    button.onclick = function() {
+        new Audio("audio.mp3").play();
+        window.open("http://192.168.0.133:8080/rick.jpeg",  "hahaha");
+    };
+
+</script>
